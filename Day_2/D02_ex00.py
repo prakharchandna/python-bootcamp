@@ -14,14 +14,39 @@
 
 ###############################################################################
 # Imports
-
+from random import randint
 
 # Body
+
+def randomInput():
+    counter = 0
+    randNo = randint(0,26)
+    print(randNo)
+    while counter <= 5:
+        try:
+           userInput  = int(input("Guess a integer from 1-25 "))
+           if (userInput > randNo):
+               print("Too high")
+           elif (userInput < randNo):
+               print("Too low")
+           elif (userInput == randNo):
+               print("Correct")
+               break
+        except ValueError:
+            print("You can only enter an integer")
+
+        counter = counter + 1
+
+
+
+
+
 
 
 ###############################################################################
 def main():
     print("Hello World!")  # Remove this and replace with your function calls
+    randomInput()
 
 
 if __name__ == '__main__':
