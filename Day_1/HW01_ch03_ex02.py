@@ -30,6 +30,18 @@
 # Write your functions below:
 # Body
 
+def do_twice(func, value):
+    func(value)
+    func(value)
+
+def print_twice(value):
+    print(value)
+
+def do_four(func, value):
+    do_twice(func, value)
+    do_twice(func, value)
+
+
 
 # Write your functions above:
 ###############################################################################
@@ -38,7 +50,7 @@ def main():
     When complete have one function call in this function:
     do_four(print_twice, [some_value])
     """
-    print("Hello World!")
+    do_four(print_twice, "spam")
 
 
 if __name__ == "__main__":

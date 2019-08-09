@@ -11,6 +11,16 @@
 
 # Insert Answers
 # Average Pace (minutes & seconds per mile): [answer here]
+# 6.887096774193549 minutes per mile
+# 413.2258064516129 seconds per mile
 # Average Speed in MPH:  [answer here]
+# 8.711943793911008 mph
+
 
 # Insert calculations below (paste from the interpreter):
+# average pace in minutes per mile
+averagePace = (42 + 42/60)/(10 * 0.62)
+# average pace in seconds per mile
+averagePace = ((42 + 42/60)/(10 * 0.62))*60
+# average speed in miles per hour
+averageSpeed = (10 * 0.62)/((42 + 42/60)/60)
