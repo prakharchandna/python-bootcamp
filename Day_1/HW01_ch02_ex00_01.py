@@ -9,8 +9,9 @@
 # (2) Now put the same statements into a script [this script] and run it.
 # enter statements below this line ########
 
-print("Hello World!")  # example
-
+5
+x = 5
+x + 1
 
 # enter statements above this line ########
 # What is the output?
@@ -18,5 +19,10 @@ print("Hello World!")  # example
 #
 # (3) Modify the script above by transforming each expression into a print
 # statement and then run it again.
+print(5)
+print(x = 5)
+print (x + 1)
 # What is the output?
 # [copy and past output here]
+
+
